@@ -710,7 +710,8 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: NEXPLAYER_SIMPLE_SAMPLE;NEXPLAYER_FULL_FEAT_SAMPLE
+    Android: STEAMAUDIO_ENABLED
+    Standalone: STEAMAUDIO_ENABLED
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
