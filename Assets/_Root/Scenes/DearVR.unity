@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 103666708}
   - component: {fileID: 103666707}
   - component: {fileID: 103666706}
-  m_Layer: 1
+  m_Layer: 6
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -276,7 +276,7 @@ GameObject:
   - component: {fileID: 259719279}
   - component: {fileID: 259719278}
   - component: {fileID: 259719277}
-  m_Layer: 1
+  m_Layer: 6
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -373,7 +373,7 @@ GameObject:
   - component: {fileID: 370815919}
   - component: {fileID: 370815918}
   - component: {fileID: 370815917}
-  m_Layer: 1
+  m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -470,7 +470,7 @@ GameObject:
   - component: {fileID: 414473630}
   - component: {fileID: 414473629}
   - component: {fileID: 414473628}
-  m_Layer: 1
+  m_Layer: 6
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -780,7 +780,7 @@ GameObject:
   - component: {fileID: 1102388146}
   - component: {fileID: 1102388145}
   - component: {fileID: 1102388144}
-  m_Layer: 1
+  m_Layer: 6
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -914,7 +914,7 @@ AudioSource:
   m_Pitch: 1
   Loop: 0
   Mute: 0
-  Spatialize: 0
+  Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 0
@@ -1008,7 +1008,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   occlusionWallMask:
     serializedVersion: 2
-    m_Bits: 2
+    m_Bits: 64
   obstructionWallMask:
     serializedVersion: 2
     m_Bits: 55
@@ -1035,14 +1035,14 @@ MonoBehaviour:
   reverbLP: 20000
   roomSize: 100
   bassBoost: 0
-  occlusionLevel: 0.6
+  occlusionLevel: 1
   obsturctionLevel: 0.6
   occlusionActive: 1
   obstructionActive: 0
-  forceOcclusion: 1
+  forceOcclusion: 0
   forceObstruction: 0
-  occlusionDebugRayCast: 1
-  occlusionRayUpdateFreq: 0.2
+  occlusionDebugRayCast: 0
+  occlusionRayUpdateFreq: 5
   obstructionRayUpdateFreq: 0.2
   obstructionDebugRayCast: 0
   reverbSends: []
@@ -1058,7 +1058,7 @@ GameObject:
   - component: {fileID: 1611903623}
   - component: {fileID: 1611903622}
   - component: {fileID: 1611903621}
-  m_Layer: 1
+  m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1374,7 +1374,7 @@ GameObject:
   - component: {fileID: 2077737415}
   - component: {fileID: 2077737414}
   - component: {fileID: 2077737413}
-  m_Layer: 1
+  m_Layer: 6
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1471,7 +1471,7 @@ GameObject:
   - component: {fileID: 2130704432}
   - component: {fileID: 2130704431}
   - component: {fileID: 2130704430}
-  m_Layer: 1
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
