@@ -157,7 +157,7 @@ namespace SteamAudio
         }
 
         public void UpdateOutputs(SimulationFlags flags)
-        {}
+        { }
 
         private void OnDrawGizmosSelected()
         {
